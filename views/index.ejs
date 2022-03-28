@@ -15,7 +15,9 @@
   <body>
     <ul>
       <h1>Hallo Daar!</h1>
-      <% data.name %>
+      <% data.forEach(project=> { %>
+      <li><%= project.name %></li>
+      <% }) %>
     </ul>
 
     <script src="js/index.js"></script>
