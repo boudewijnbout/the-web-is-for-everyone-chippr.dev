@@ -1,5 +1,5 @@
 # Chippr.dev SSR & Detailpage 
-![Schermafbeelding Homepagina](assets/images/screenshot-homepage.png)
+![Schermafbeelding Homepagina](public/images/screenshot-homepage.png)
 
 Dit project omvat een detailpagina voor een project uitgevoerd door Chippr, waarbij de data afkomstig is vanuit de voor Chippr gemaakte API. Daarnaast is er ook eeN CRUD gemaakt waarin de API kan worden beheerd.
 
