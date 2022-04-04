@@ -1,8 +1,7 @@
 # Chippr.dev SSR & Detailpage 
 ![Schermafbeelding Homepagina](public/images/screenshot-homepage.png)
 
-Dit project omvat een detailpagina voor een project uitgevoerd door Chippr, waarbij de data afkomstig is vanuit de voor Chippr gemaakte API. Daarnaast is er ook eeN CRUD gemaakt waarin de API kan worden beheerd.
-
+Dit project omvat een detailpagina voor een project uitgevoerd door Chippr, waarbij alle pagina's via server side rendering (ssr) worden getoond aan de eindgebruiker. Hierbij is de data van de pagina's afkomstig vanuit de voor Chippr gemaakte API.
 
 
 ## 📚 Inhoudsopgave
@@ -33,15 +32,15 @@ Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een k
 
 1. Clone of download deze respository.
 2. Ga naar de root directory van het project.
-3. Open het `index.html` bestand, hierdoor wordt de homepagina (CRUD) van de website geopend.
+3. Open het `index.html` bestand, hierdoor wordt de homepagina vn de website geopend.
 
 ## 🔨 Gebruik
 
-Op de CRUD wordt gebruik gemaakt van een tabel, gebruik de knop "Voeg student toe" om een nieuwe student toe te voegen, in de sidebar is het mogelijk om terug te navigeren naar de algemene overzichts pagina waarop alle studenten worden getoond.
+Op de pagina word een sectie getoond met uitgevoerde projecten door Chippr. Als je hierop klikt word je doorverwezen naar een detailpagina waarin het aangeklikte project verder word toegelicht.
 
 ## 🔗 Handige links
 
-[Wiki](https://github.com/boudewijnbout/the-startup-chipper.dev/wiki)
+[Wiki](https://github.com/boudewijnbout/the-web-is-for-everyone-chippr.dev/wiki)
 
 ## 📖 Bronnen
 [HTML5](https://www.w3schools.com/html/)
@@ -49,6 +48,8 @@ Op de CRUD wordt gebruik gemaakt van een tabel, gebruik de knop "Voeg student to
 [CSS3](https://www.w3schools.com/css/)
 <br>
 [JavaScript](https://www.w3schools.com/js/)
+<br>
+[EJS](https://ejs.co/)
 
 ## 🔓 Licentie
 
