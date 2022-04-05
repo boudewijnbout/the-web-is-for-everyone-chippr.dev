@@ -60,9 +60,9 @@ a {
 
 .project-info-wrapper {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   margin-top: 5rem;
-  padding: 2rem 5rem;
+  padding: 1rem 1rem;
 }
 
 /* Project Images */
@@ -76,11 +76,6 @@ a {
 .project-text-sticky-wrapper {
   position: sticky;
   top: 7rem;
-}
-
-/* Project Text */
-.project-text {
-  margin-left: 2.5rem;
 }
 
 .project-text span {
@@ -140,4 +135,29 @@ a {
 
 .project-text a:focus {
   transform: translateY(-1px) scale(0.95);
+}
+
+/*--------------------------------------------------------------
+# Media Query's
+--------------------------------------------------------------*/
+
+@media (min-width: 40rem) {
+  .proejct-text article {
+    width: 80%;
+  }
+}
+
+@media (min-width: 60.5rem) {
+  .project-info-wrapper {
+    grid-template-columns: 2fr 1fr;
+    padding: 2rem 3rem;
+  }
+
+  .project-text {
+    margin-left: 2.5rem;
+  }
+
+  .projext-text article {
+    width: auto;
+  }
 }
