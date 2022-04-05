@@ -1,32 +1,57 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Chippr.dev SSR & Detailpage 
+![Schermafbeelding Homepagina](public/images/screenshot-homepage.png)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Dit project omvat een detailpagina voor een project uitgevoerd door Chippr, waarbij alle pagina's via server side rendering (ssr) worden getoond aan de eindgebruiker. Hierbij is de data van de pagina's afkomstig vanuit de voor Chippr gemaakte API.
 
-## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+## 📚 Inhoudsopgave
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+* [Beschrijving](#beschrijving)
+* [Kenmerken](#kenmerken)
+* [Installatie](#installatie)
+* [Gebruik](#gebruik)
+* [Bronnen](#bronnen)
+* [Licentie](#licentie)
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+## ⚡ Kenmerken
+Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een korte lijst met gebruikte tools en middelen.
 
-## Installatie
+**Tools**
 
-## Gebruik
+- 🖥️ Webstorm & Visual Studio Code
+- 🔥 Adobe XD
+- ✍ Pen & Papier
 
-## Bronnen
+**Gebruikte technieken**
 
-## Licentie
+- 📟 HTML
+- ⌚ CSS
+- 📲 JavaScript
+
+## 📥 Installatie
+
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open het `index.html` bestand, hierdoor wordt de homepagina vn de website geopend.
+
+## 🔨 Gebruik
+
+Op de pagina word een sectie getoond met uitgevoerde projecten door Chippr. Als je hierop klikt word je doorverwezen naar een detailpagina waarin het aangeklikte project verder word toegelicht.
+
+## 🔗 Handige links
+
+[Wiki](https://github.com/boudewijnbout/the-web-is-for-everyone-chippr.dev/wiki)
+
+## 📖 Bronnen
+[HTML5](https://www.w3schools.com/html/)
+<br>
+[CSS3](https://www.w3schools.com/css/)
+<br>
+[JavaScript](https://www.w3schools.com/js/)
+<br>
+[EJS](https://ejs.co/)
+
+## 🔓 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
