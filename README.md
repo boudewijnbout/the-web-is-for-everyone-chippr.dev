@@ -32,7 +32,7 @@ Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een k
 
 1. Clone of download deze respository.
 2. Ga naar de root directory van het project.
-3. Open het `index.html` bestand, hierdoor wordt de homepagina vn de website geopend.
+3. Start d.m.v het commando `node app.js` de webserver. Deze word ook automatisch in de browser geopend.
 
 ## 🔨 Gebruik
 
