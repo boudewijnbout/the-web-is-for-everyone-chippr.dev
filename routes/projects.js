@@ -3,7 +3,7 @@ const router = express.Router();
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
-let apiUrl = "https://chipr.api.fdnd.nl/v1/project";
+const apiUrl = "https://chipr.api.fdnd.nl/v1/project";
 
 // Overview page with all projects data
 router.get("/", (req, res) => {
