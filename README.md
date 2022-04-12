@@ -32,7 +32,8 @@ Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een k
 
 1. Clone of download deze respository.
 2. Ga naar de root directory van het project.
-3. Start d.m.v het commando `node app.js` de webserver. Deze word ook automatisch in de browser geopend.
+3. Gebruik `npm install` om de benodige dev dependencies te installeren.
+4. Gebruik `node app.js` om de web-server te starten. Deze is standaard bereikbaar op poort `3000`.
 
 ## 🔨 Gebruik
 
