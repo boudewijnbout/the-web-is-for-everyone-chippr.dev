@@ -3,9 +3,11 @@ const router = express.Router();
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
+let apiUrl = "https://chipr.api.fdnd.nl/v1/project";
+
 // Overview page with all projects data
 router.get("/", (req, res) => {
-  getApiData("https://chipr.api.fdnd.nl/v1/project").then(function (jsonData) {
+  getApiData(apiUrl).then(function (jsonData) {
     res.render("index", {
       projects: jsonData.data,
     });
@@ -14,7 +16,7 @@ router.get("/", (req, res) => {
 
 // Get specific project data according to ID
 router.get("/:id", (req, res) => {
-  getApiData(`https://chipr.api.fdnd.nl/v1/project/${req.params.id}`).then(
+  getApiData(apiUrl + `/${req.params.id}`).then(
     function (jsonData) {
       res.render("detail", {
         project: jsonData.data[0],

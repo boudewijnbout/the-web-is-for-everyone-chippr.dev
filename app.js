@@ -8,8 +8,8 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 // Routes
-const projectRoute = require("./routes/projects");
-app.use("/", projectRoute);
+const projectsRoute = require("./routes/projects");
+app.use("/", projectsRoute);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);

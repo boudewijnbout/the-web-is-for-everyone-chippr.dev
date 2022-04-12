@@ -1,60 +1,4 @@
 /*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-/* Variables */
-:root {
-  --main-bg: #262626;
-  --secondary-bg: #f8f4f1;
-  --accent-bg: #f7c117;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  background-color: var(--secondary-bg);
-}
-
-/* Disable Scrolling */
-.scrolling-disabled {
-  overflow-y: hidden;
-}
-
-/* Page titles */
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Rubik", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.btn-secondary {
-  background-color: #fff;
-  color: #262626;
-  padding: 0.5rem 1.313rem;
-  border-radius: 3.75rem;
-  font-weight: 500;
-}
-
-/*--------------------------------------------------------------
 # Project Information Wrapper
 --------------------------------------------------------------*/
 
@@ -86,13 +30,13 @@ a {
 }
 
 /* Project Title */
-.project-text h1 {
+.project-text h2 {
   font-size: 2.875rem;
   font-weight: 400;
   margin-bottom: 0.625rem;
 }
 
-.project-text h1::before {
+.project-text h2::before {
   content: "";
   display: inline-block;
   width: 4px;
@@ -103,10 +47,10 @@ a {
 }
 
 /* Project Subtitle */
-.project-text h2 {
+.project-text h3 {
   font-size: 1.125rem;
   font-weight: 500;
-  margin-bottom: 1.25rem;
+  margin-bottom: .5rem;
 }
 
 /* Project Description */
